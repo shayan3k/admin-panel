@@ -35,12 +35,13 @@ Route::get('/bardasht', function () {
     return view('admin.bardasht');
 });
 
-Route::get('/charge-amount', function () {
-    return view('admin.charge-amount');
-});
-
 Route::get('/charge-week', function () {
     return view('admin.charge-week');
+});
+
+
+Route::get('/charge-month', function () {
+    return view('admin.charge-month');
 });
 
 
@@ -48,12 +49,12 @@ Route::get('/charge', function () {
     return view('admin.charge');
 });
 
-Route::get('/eventmaneger-imp', function () {
-    return view('admin.eventmaneger-imp');
+Route::get('/eventmanager-imp', function () {
+    return view('admin.eventmanager-imp');
 });
 
-Route::get('/eventmaneger', function () {
-    return view('admin.eventmaneger');
+Route::get('/eventmanager', function () {
+    return view('admin.eventmanager');
 });
 
 
@@ -70,8 +71,8 @@ Route::get('/if-win', function () {
 });
 
 
-Route::get('/ListManager', function () {
-    return view('admin.ListManager');
+Route::get('/listmanager', function () {
+    return view('admin.listmanager');
 });
 
 Route::get('/pay-day', function () {
@@ -91,6 +92,6 @@ Route::get('/register', function () {
     return view('admin.register');
 });
 
-Route::get('/UserReview', function () {
-    return view('admin.UserReview');
+Route::get('/userreview', function () {
+    return view('admin.userreview');
 });

@@ -1,24 +1,163 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
 // Variables
-@import 'variables';
+@import "variables";
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+//bardasht
+.example-modal .modal {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  display: block;
+  z-index: 1;
+}
 
+.example-modal .modal {
+  background: transparent !important;
+}
 
-  .example-modal .modal {
-    position: relative;
-    top: auto;
-    bottom: auto;
-    right: auto;
-    left: auto;
-    display: block;
-    z-index: 1;
-    
-  }
+#userReview td,
+#userReview th {
+  border: none;
+  border-bottom: 1px solid #888;
+}
 
-  .example-modal .modal {
-    background: transparent !important;
-  }
+#userReview th {
+  background: #3c8dbc;
+  color: #fff;
+}
+
+#userReview tr:nth-child(odd) {
+  background: lightskyblue;
+}
+
+#userReview tr:nth-child(even) {
+  background: lightyellow;
+}
+
+.sp-n {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(87, 87, 87);
+}
+
+a {
+  color: #fff;
+}
+
+.row-table {
+  margin-top: 20px;
+}
+//charge month
+
+#userReview td,
+#userReview th {
+  border: none;
+  border-bottom: 1px solid #888;
+}
+#userReview th {
+  background: rgb(245, 207, 103);
+  color: #fff;
+}
+#userReview tr:nth-child(odd) {
+  background: rgb(253, 238, 173);
+}
+#userReview tr:nth-child(even) {
+  background: lightyellow;
+}
+.row-btn {
+  margin-right: 3px;
+  margin-bottom: 30px;
+}
+.btn {
+  margin-left: 5px;
+}
+.sp-n {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(87, 87, 87);
+}
+a {
+  color: #fff;
+}
+
+//charge
+
+#userReview td,
+#userReview th {
+  border: none;
+  border-bottom: 1px solid #888;
+}
+#userReview th {
+  background: rgb(245, 207, 103);
+  color: #fff;
+}
+#userReview tr:nth-child(odd) {
+  background: rgb(253, 238, 173);
+}
+#userReview tr:nth-child(even) {
+  background: lightyellow;
+}
+.row-btn {
+  margin-right: 3px;
+  margin-bottom: 30px;
+}
+.btn {
+  margin-left: 5px;
+}
+.sp-n {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(87, 87, 87);
+}
+a {
+  color: #fff;
+}
+
+//charge
+
+#userReview td,
+#userReview th {
+  border: none;
+  border-bottom: 1px solid #888;
+}
+#userReview th {
+  background: rgb(245, 207, 103);
+  color: #fff;
+}
+#userReview tr:nth-child(odd) {
+  background: rgb(253, 238, 173);
+}
+#userReview tr:nth-child(even) {
+  background: lightyellow;
+}
+.row-btn {
+  margin-right: 3px;
+  margin-bottom: 30px;
+}
+.btn {
+  margin-left: 5px;
+}
+.sp-n {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(87, 87, 87);
+}
+a {
+  color: #fff;
+}
+
+#data_table {
+  /* width: 1000px; */
+}
+
+//eventManager-imp
+a{
+    color:#fff;
+}
+.row-table{
+    direction: rtl;
+}
